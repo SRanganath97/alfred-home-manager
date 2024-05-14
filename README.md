@@ -46,4 +46,4 @@ python main_run.py
 - Vishal Varma Kovoru
 
 ## Acknowledgements
-- We would like to thank Professor Yang, Wei for giving us this opportunity.
+- We would like to thank Professor Wei Yang for giving us this opportunity.
