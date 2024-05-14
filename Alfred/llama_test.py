@@ -15,7 +15,7 @@ pipeline = transformers.pipeline(
 )
 
 sequences = pipeline(
-    'def fibonacci(',
+    'Generate JSONs to turn off the lights at 7pm',
     do_sample=True,
     temperature=0.2,
     top_p=0.9,
