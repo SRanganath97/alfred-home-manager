@@ -8,7 +8,7 @@ def record_audio(filepath):
     CHANNELS = 1
     RATE = 44100
     CHUNK = 1024
-    RECORD_SECONDS = 5
+    RECORD_SECONDS = 10
 
     audio = pyaudio.PyAudio()
 

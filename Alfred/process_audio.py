@@ -29,5 +29,6 @@ class AudioProc():
 
         return transcription
 
-ap = AudioProc()
-print(ap.process_audio("temp.wav"))
+if __name__ == '__main__':
+    ap = AudioProc()
+    print(ap.process_audio("temp.wav"))

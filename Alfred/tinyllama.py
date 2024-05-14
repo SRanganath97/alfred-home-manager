@@ -6,7 +6,7 @@ pipe = pipeline("text-generation", model="TinyLlama/TinyLlama-1.1B-Chat-v1.0", t
 messages = [
     {
         "role": "system",
-        "content": "",
+        "content": "ou are an AI that controls a smart home. You receive a user command and design an action plan of prompts which are clear and easy to execute",
     },
     {"role": "user", "content": "Turn the thermostat up to 80 degrees"},
 ]
