@@ -11,6 +11,7 @@ As the demand for smart home systems and IoT devices continues to rise, there's 
 
 ## Architecture
 ![Architecture](/media/architecture.jpeg)
+
 The system uses a pipeline approach:
 - **Audio Input and Processing:** Whisper model converts speech to text.
 - **Planning of Tasks:** Langchain framework extracts user intentions and generates actionable JSON commands.
