@@ -10,7 +10,7 @@ As the demand for smart home systems and IoT devices continues to rise, there's 
 - Demonstrates strong generalization capabilities across different datasets and domains without fine-tuning.
 
 ## Architecture
-![Architecture](media/architecure.jpeg)
+![Architecture](/media/architecure.jpeg)
 The system uses a pipeline approach:
 - **Audio Input and Processing:** Whisper model converts speech to text.
 - **Planning of Tasks:** Langchain framework extracts user intentions and generates actionable JSON commands.
