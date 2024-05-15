@@ -2,8 +2,6 @@ import transformers
 import torch
 from transformers import AutoTokenizer
 
-access_tok = "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"
-
 tokenizer = AutoTokenizer.from_pretrained("codellama/CodeLlama-7b-hf")
 pipeline = transformers.pipeline(
     "text-generation",
